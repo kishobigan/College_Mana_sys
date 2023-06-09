@@ -1,7 +1,7 @@
 from cupshelpers import Printer
 import mysql.connector as mysql
 
-db = mysql.connect(host="localhost", user="admin", password="KISHO@bigan5176", database="College")
+db = mysql.connect(host="localhost", user="admin", password="**************", database="College")
 command_handler = db.cursor(buffered = True)
 
 def Admin_session():
